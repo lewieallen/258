@@ -26,8 +26,16 @@ a.active {
     text-decoration: none;
 }
 
+.lead > a:hover{
+  font-size: 22px;
+}
+
 a:visited{
   color: #7E7E7E;
+}
+
+.jumpout{
+  color: #;
 }
 
 h1,
@@ -69,7 +77,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #E83807;
 }
 
 hr.star-primary {
@@ -123,6 +131,7 @@ header .intro-text .skills {
 
     header .intro-text .name {
         font-size: 4.75em;
+        margin-bottom: 30px;
     }
 
     header .intro-text .skills {
@@ -193,15 +202,15 @@ section {
 }
 
 section h2 {
-    margin: 0;
+    margin: 0px 0px 30px 0px;
     font-size: 3em;
-    color:#E83807;
+    color:#313232;
 
 }
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #E83807;
 }
 
 @media(max-width:767px) {
