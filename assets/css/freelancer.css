@@ -1,11 +1,6 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     overflow-x: hidden;
+
 }
 
 p {
@@ -16,13 +11,17 @@ p.small {
     font-size: 16px;
 }
 
+.ff{
+  color:#E83807;
+}
+
 a,
 a:hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #E83807;
+    color: #000;
     text-decoration: none;
 }
 
@@ -36,8 +35,8 @@ a:visited{
   color: #fff;
 }
 
-.jumpout{
-  color: #;
+.highlight{
+  color: #E83807;
 }
 
 h1,
@@ -91,9 +90,6 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
-.img-centered {
-    margin: 0 auto;
-}
 
 header {
     text-align: center;
@@ -178,7 +174,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,'Sigmar One',Helvetica,Arial,sans-serif;
     font-weight: 700;
-    background-color: black;
+    background-color: #fff;
 }
 
 .navbar a:focus {
@@ -225,10 +221,10 @@ section.success {
     display: none;
   }
   header.skills.,header.name{
-    font-size: 28px;
+    font-size: 26px;
   }
   header.skills.,header.lead{
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -242,9 +238,26 @@ section.success {
     }
 }
 
+
+.thumbnail{
+  background-color: rgba(0,0,0,0);
+  padding: 10px 20px;
+  max-height: 400px;
+  overflow-y: scroll;
+  border: none;
+
+}
+
+
+#contact{
+  background-color: #898989;
+}
+
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -311,10 +324,10 @@ section.success {
 
 .btn-outline-success {
     margin-top: 15px;
-    border: solid 2px #0F9831;
+    border: solid 2px #000;
     border-radius: 0;
     font-size: 20px;
-    color: #0F9831;
+    color: #000;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -439,6 +452,7 @@ footer .footer-below {
     width: 50px;
     height: 50px;
     color: #E83807;
+    background-color: #fff;
     border-radius: 0;
     font-size: 20px;
     line-height: 28px;
@@ -446,6 +460,10 @@ footer .footer-below {
 
 .scroll-top .btn:focus {
     outline: 0;
+}
+
+.scroll-top .btn:hover{
+  background-color: #000;
 }
 
 .portfolio-modal .modal-content {
