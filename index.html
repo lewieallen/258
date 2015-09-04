@@ -1,16 +1,98 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <title>Welcome</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+
+	<title>Lewie Allen</title>
 </head>
 <body>
+	<div id="loader-wrapper">
+      <div id="loader"></div>
 
-  <h1>Welcome to my corner of the universe...</h1>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
 
-  <h3>Look out for loads of stuff in this space, including 25/8, a solutions company by web developer/entreprenuer Lewie Allen.</h3>
+  </div>
+	<main class="cd-main">
+		<ul class="cd-gallery">
+			<li class="cd-item">
+				<a  href="item-1.html">
+					<div class="">
+						<h2>My name is Lewie Allen</h2>
+						<p>I'm a Digital Trainer at Freeformers <br>AND<br> Web Developer/Digital Consultant for Startups.</p>
+						<b class="box barlite"><p>Read More</p></b>
+					</div>
+				</a>
+			</li>
+
+			<li class="cd-item">
+				<a class="dark-text" href="item-2.html">
+					<div class="topfilter">
+						<h2>Who I Am</h2>
+
+						<b class="box bar "><p>Read More</p></b>
+					</div>
+				</a>
+			</li>
+
+			<li class="cd-item">
+				<a class="dark-text" href="item-3.html">
+					<div class="topfilter">
+						<h2>What I Do</h2>
+
+						<b class="box bar"><p>Read More</p></b>
+					</div>
+				</a>
+			</li>
+
+			<li class="cd-item">
+				<a class="dark-text" href="item-4.html">
+					<div class="dark-text">
+						<h2>Get In Touch</h2>
+
+						<b class="box bar"><p>Read More</p></b>
+					</div>
+				</a>
+			</li>
+		</ul> <!-- .cd-gallery -->
+	</main> <!-- .cd-main -->
+
+	<div class="cd-folding-panel">
+
+		<div class="fold-left"></div> <!-- this is the left fold -->
+
+		<div class="fold-right"></div> <!-- this is the right fold -->
+
+		<div class="cd-fold-content">
+			<!-- content will be loaded using javascript -->
+			<h2>Coming Soon...</h2>
+			<br><br>
+			<p class="lead">Under Contruction. Watch this space...</p>
+			<br><br>
+			<p>If you have any questions, don't hesitate to contact me via email</p>
+			<b class="bar box">Email Me</b>
+
+		</div>
+
+		<a class="cd-close" href="#0"></a>
+	</div> <!-- .cd-folding-panel -->
 
 
 
+	<!-- Jquery -->
+<script src="js/jquery-2.1.1.js"></script>
+  <!-- Resource jQuery -->
+<script src="js/main.js"></script>
+ <!-- Modernizr -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<!-- Preloader -->
+<script src="js/preload.js"></script>
 </body>
 </html>
